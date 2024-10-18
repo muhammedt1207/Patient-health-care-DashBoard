@@ -1,48 +1,45 @@
-*Patient Health Dashboard for Prior Authorization*
-The Patient Health Dashboard is a full-stack application designed to streamline healthcare providers' workflow by enabling them to view and manage patient health data, with a focus on prior authorization requests. This project integrates with Basys AI's Co-Pilot product, providing a seamless solution for submitting, reviewing, and managing prior authorization requests.
+# Patient-Health-Dashboard-for-Prior-Authorization
 
-Objective
+# Overview
+The Patient Health Dashboard is a full-stack application designed to streamline healthcare providers' workflow by enabling them to view and manage patient health data, focusing on prior authorization. This project integrates with Basys AI's Co-Pilot product to provide a seamless solution for submitting, reviewing, and managing prior authorization requests.
+
+# Objective
 The goal of this application is to:
 
 Provide healthcare providers with a dashboard to view patient health data.
 Support the submission and management of prior authorization requests.
 Simplify and automate workflows related to patient data and insurance claims.
 Features
-Patient Dashboard:
-View detailed patient health records, including medical history, diagnoses, treatments, and insurance information.
 
-Prior Authorization Management:
-Submit, monitor, and manage prior authorization requests directly from the dashboard.
+Patient Dashboard: View detailed patient health records, including medical history, diagnoses, treatments, and insurance information.
+Prior Authorization Management: Submit, monitor, and manage prior authorization requests directly from the dashboard.
+Health Data Integration: Integrate real-time health data from multiple sources for an up-to-date view of the patient's condition.
+Role-Based Access: Healthcare providers and payers have different access levels for managing data and authorization workflows.
 
-Health Data Integration:
-Integrate real-time health data from multiple sources for an up-to-date view of the patient's condition.
+# Roles & Credentials
 
-Role-Based Access:
-Different access levels for healthcare providers and payers to manage data and authorization workflows.
-
-Roles & Credentials
-Healthcare Provider (Doctor)
-
+Healthcare Provider 
+# Doctor
 Email: doctor@gmail.com
 Password: Doctor@123
-Payer
+
+# Payer
 
 Email: payer@gmail.com
 Password: Payer@123
-Prerequisites
-Ensure you have the following installed:
+
+# Prerequisites
+Make sure you have the following installed:
 
 Node.js (v14 or higher)
 MongoDB (local or Atlas instance)
 Basys AI API Access for Co-Pilot integration (if applicable)
 Installation
-Follow these steps to set up the project:
-
 Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-repo/patient-health-dashboard.git
+# git clone https://github.com/your-repo/patient-health-dashboard.git
 cd patient-health-dashboard
 Install backend dependencies:
 
@@ -58,7 +55,7 @@ cd ../frontend
 npm install
 Environment Variables Setup:
 
-In the backend directory, create a .env file with the following configuration:
+# In the backend directory, create a .env file with the following configuration:
 
 plaintext
 Copy code
@@ -68,18 +65,22 @@ PORT=5000
 BASYS_API_KEY=your-basys-co-pilot-api-key
 Run the application:
 
-Run both the frontend and backend simultaneously:
-
+# Run both the frontend and backend simultaneously using:
 bash
 Copy code
-npm run dev
-Technology Stack
+# npm run dev
+This command will start the frontend and backend servers concurrently.
+
+
+# Technology Stack
 Frontend: React.js, Redux, Tailwind CSS
 Backend: Node.js, Express.js, MongoDB
 Authentication: JWT (JSON Web Token)
 State Management: Redux
 CSS Framework: Tailwind CSS
-Contact
+
+# Contact
 For any inquiries or questions, please contact:
 
-Email: arjunpchr@gmail.com
+Email: muhammedt1207@gmail.com
+#
