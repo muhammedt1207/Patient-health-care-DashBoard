@@ -17,7 +17,7 @@ const app = express();
 const PORT = process.env.PORT;
 
 const corsOptions = {
-  origin: "http://localhost:5174",
+  origin: "https://patient-health-care-dash-board.vercel.app/",
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
@@ -32,12 +32,6 @@ const limiter = rateLimit({
   headers: true,
 });
 
-// const csrfProtection = csurf({
-//   cookie: true,
-// });
-
-// app.use(csrfProtection);
-// app.use(authenticateUser);
 
 connectToDatabase();
 app.use(express.json());
