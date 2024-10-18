@@ -1,4 +1,4 @@
-Patient Health Dashboard for Prior Authorization
+*Patient Health Dashboard for Prior Authorization*
 The Patient Health Dashboard is a full-stack application designed to streamline healthcare providers' workflow by enabling them to view and manage patient health data, with a focus on prior authorization requests. This project integrates with Basys AI's Co-Pilot product, providing a seamless solution for submitting, reviewing, and managing prior authorization requests.
 
 Objective
